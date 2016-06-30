@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Oswald);
+header {
+  background-color: #388e3c;
+  padding: 2% 0%; }
+  header h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px; }
+
+* {
+  font-family: open sans; }
+
+h1 {
+  font-family: Oswald; }
+
+/*# sourceMappingURL=main.css.map */

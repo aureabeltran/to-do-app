@@ -1,0 +1,17 @@
+//**Esto es para botones simples con hover opaco**//
+
+@mixin botones-simples($ancho, $color-boton, $margin, $border-r){
+	width: $ancho;
+	background-color: $color-boton;
+	margin: $margin;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	border: $color-boton;
+	border-radius: $border-r;
+	&:hover{
+		font-weight: bold;
+		background-color: darken($color-boton, 15%);
+	}
+}
