@@ -21,27 +21,64 @@
 			</div>
 		</div>
 	</header>
-	<section>
+	<section class="agregar">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					Add to my list
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 col-sm-12">
-					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<h3>
+						Select Priority and Add Events to my List 
+						<i class="fa fa-list-alt" aria-hidden="true"></i>
+					</h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<button>
-						ADD
+					<h3>
+					</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Priority <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#">Important</a></li>
+					    <li><a href="#">no se</a></li>
+					    <li><a href="#">Something else here</a></li>
+					  </ul>
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-12">
+					<textarea placeholder="Add Event" name="" id="texto" cols="100" rows="2"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<button id="ADD">
+						ADD 
 					</button>
 				</div>
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript" src="js/"></script>
+	<section class="lista">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div>
+						<ul id="events">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	</script>
+	<script type="text/javascript" src="js/to_do_app.js"></script>
 </body>
 </html>
