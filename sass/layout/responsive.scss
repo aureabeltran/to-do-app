@@ -1,0 +1,7 @@
+@media (min-width: 300px) and (max-width: 767px) { 
+	.agregar{
+		#ADD{
+			@include botones-simples (30%, $main-green, 20px 0px, 1px solid darken ($main-green, 20%), 10px);
+		}
+	}
+ }
