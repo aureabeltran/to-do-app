@@ -114,18 +114,20 @@ ul {
   text-decoration: line-through; }
 
 @media (min-width: 300px) and (max-width: 767px) {
-  .agregar #ADD {
-    width: 30%;
-    background-color: #388e3c;
-    margin: 20px 0px;
-    color: white;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 18px;
-    border: 1px solid darken #388e3c, 20%;
-    border-radius: 10px; }
-    .agregar #ADD:hover {
+  .agregar {
+    padding: 12% 0% !important; }
+    .agregar #ADD {
+      width: 30%;
+      background-color: #388e3c;
+      margin: 20px 0px;
+      color: white;
+      padding: 5px;
       font-weight: bold;
-      background-color: #225725; } }
+      font-size: 18px;
+      border: 1px solid darken #388e3c, 20%;
+      border-radius: 10px; }
+      .agregar #ADD:hover {
+        font-weight: bold;
+        background-color: #225725; } }
 
 /*# sourceMappingURL=main.css.map */
