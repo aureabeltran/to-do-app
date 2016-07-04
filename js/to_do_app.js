@@ -24,7 +24,7 @@ boton.addEventListener("click",function(){
 		check.setAttribute("onclick", "marcar(this)");
 		caja = document.createElement("button");
 		caja.setAttribute("id", "basurero");
-		caja.setAttribute("onclick", "eliminar()");
+		caja.setAttribute("onclick", "eliminar(this)");
 		trash = document.createElement("i");
 		trash.setAttribute("class", "fa fa-trash");
 		caja.appendChild(trash);
@@ -54,11 +54,10 @@ function marcar (element) {
 
 //borrar Tarea
 
-function eliminar () {
-	var listado = document.getElementById("events");
-	var list = listado.firstChild;
-	console.log(list);
-	listado.removeChild(list);
+function eliminar (caja) {
+	var lista = caja.parentNode;
+	var listado = lista.parentNode;
+	listado.removeChild(lista);
 }
 
 function marcar2(elemento){

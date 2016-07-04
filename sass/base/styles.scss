@@ -10,14 +10,13 @@ header{
 }
 .agregar{
 	background-color: lighten($main-cyan, 10%);
-	padding: 10% 0%;
+	padding: 5% 0%;
 	text-align: center;
 	h3{
-		margin-bottom: 50px;
-		font-size: 30px;
+		padding: 5%;
+		font-size: 3.3em;
 		color: white;
 		i{
-			font-size: 35px;
 			padding: 5px;
 		}
 	}
@@ -41,6 +40,7 @@ header{
 	#texto{
 		border: 1px solid darken($main-green, 30%);
 		padding: 10px;
+		margin: 20px 0px;
 		font-weight: bold;
 		width: 80%;
 	}

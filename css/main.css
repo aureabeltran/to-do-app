@@ -10,14 +10,13 @@ header {
 
 .agregar {
   background-color: #009197;
-  padding: 10% 0%;
+  padding: 5% 0%;
   text-align: center; }
   .agregar h3 {
-    margin-bottom: 50px;
-    font-size: 30px;
+    padding: 5%;
+    font-size: 3.3em;
     color: white; }
     .agregar h3 i {
-      font-size: 35px;
       padding: 5px; }
   .agregar .btn-group {
     width: 100%; }
@@ -46,6 +45,7 @@ header {
   .agregar #texto {
     border: 1px solid #0d200e;
     padding: 10px;
+    margin: 20px 0px;
     font-weight: bold;
     width: 80%; }
   .agregar #ADD {
@@ -117,7 +117,7 @@ ul {
   .agregar {
     padding: 12% 0% !important; }
     .agregar #ADD {
-      width: 30%;
+      width: 40%;
       background-color: #388e3c;
       margin: 20px 0px;
       color: white;

@@ -2,7 +2,7 @@
 	.agregar{
 		padding: 12% 0% !important;
 		#ADD{
-			@include botones-simples (30%, $main-green, 20px 0px, 1px solid darken ($main-green, 20%), 10px);
+			@include botones-simples (40%, $main-green, 20px 0px, 1px solid darken ($main-green, 20%), 10px);
 		}
 	}
  }
