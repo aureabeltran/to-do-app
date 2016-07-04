@@ -8,7 +8,7 @@ boton.addEventListener("click",function(){
 	tarea = document.getElementById("events");
 //asigno a mi variable lista que haya creado un li
 	lista = document.createElement("li");
-	lista.setAttribute("id", "listado");
+	lista.setAttribute("class", "listado");
 //con item tomo el valor ingresado en mi text area
 	text = document.getElementById("texto");
 	item = text.value;
@@ -21,8 +21,7 @@ boton.addEventListener("click",function(){
 		check = document.createElement("input");
 		check.setAttribute("class", "option");
 		check.setAttribute("type", "checkbox");
-		check.setAttribute("id", "check");
-		check.setAttribute("onclick", "marcar()");
+		check.setAttribute("onclick", "marcar(this)");
 		caja = document.createElement("button");
 		caja.setAttribute("id", "basurero");
 		caja.setAttribute("onclick", "eliminar()");
@@ -43,17 +42,13 @@ boton.addEventListener("click",function(){
 })
 
 //tachar tarea
-function marcar () {
-	check = document.getElementById("check")
-	if (check.checked == true){
-		listado = document.getElementById("listado");
-		listado.classList.add("tachado");
-		console.log(listado);
+function marcar (element) {
+	var check = element.parentNode;
+	if (element.checked == true) {
+		check.classList.add("tachado");
 	}
 	else{
-		listado = document.getElementById("listado");
-		listado.classList.remove("tachado");
-		console.log(listado);
+		check.classList.remove("tachado");
 	}
 }
 
@@ -65,4 +60,7 @@ function eliminar () {
 	console.log(list);
 	listado.removeChild(list);
 }
-	
+
+function marcar2(elemento){
+	console.log(elemento);
+}
