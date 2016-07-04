@@ -90,6 +90,9 @@ ul {
   text-decoration: line-through; }
 
 @media (min-width: 300px) and (max-width: 767px) {
+  header h1 {
+    font-size: 40px; }
+
   .agregar #ADD {
     width: 40%;
     background-color: #388e3c;
@@ -102,6 +105,9 @@ ul {
     border-radius: 10px; }
     .agregar #ADD:hover {
       font-weight: bold;
-      background-color: #225725; } }
+      background-color: #225725; }
+
+  .lista h3 {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
