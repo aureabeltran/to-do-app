@@ -5,7 +5,7 @@ header{
 	h1{
 		text-align: center;
 		color: white;
-		font-size: 5em;
+		font-size: 55px;
 	}
 }
 .agregar{
@@ -14,28 +14,11 @@ header{
 	text-align: center;
 	h3{
 		padding: 5%;
-		font-size: 3.3em;
+		font-size: 35px;
 		color: white;
 		i{
 			padding: 5px;
 		}
-	}
-	.btn-group{
-		width: 100%;
-		.btn-default{
-			padding: 5px;
-			font-family: Oswald;
-			font-size: 30px;
-			@include botones-simples (100%, $main-green, 0px, 1px solid darken ($main-green, 20%), 10px);
-		}
-		.dropdown-menu{
-				background-color: lighten($main-green, 10%)!important;
-				li{
-					color: white;
-					font-size: 20px;
-					font-weight: bold;
-				}
-			}
 	}
 	#texto{
 		border: 1px solid darken($main-green, 30%);
