@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>To do App</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -21,27 +22,53 @@
 			</div>
 		</div>
 	</header>
-	<section>
+	<section class="agregar">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					Add to my list
+					<h3>
+						<i class="fa fa-list-alt" aria-hidden="true"></i>
+						Add Events to List 
+						<i class="fa fa-list-alt" aria-hidden="true"></i>
+					</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-10 col-sm-12">
-					<textarea name="" id="" cols="30" rows="10"></textarea>
+				<div class="col-md-12 col-sm-12">
+					<textarea placeholder="Add Event" name="" id="texto"  rows="1"></textarea>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<button>
-						ADD
+				<div class="col-md-12 col-sm-12">
+					<button id="ADD">
+						ADD 
 					</button>
 				</div>
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript" src="js/"></script>
+	<section class="lista">
+		<div class="container bode">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h3>
+						<i class="fa fa-book" aria-hidden="true"></i>
+						My List:
+					</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<ul id="events">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	</script>
+	<script type="text/javascript" src="js/to_do_app.js"></script>
 </body>
 </html>

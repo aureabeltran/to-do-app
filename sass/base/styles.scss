@@ -1,9 +1,75 @@
 header{
 	background-color: $main-green;
-	padding: 2% 0%;
+	padding: 5% 0%;
+	border-bottom: 2px solid darken($main-green, 20%);
 	h1{
 		text-align: center;
 		color: white;
-		font-size: 50px;
+		font-size: 55px;
+	}
+}
+.agregar{
+	background-color: lighten($main-cyan, 10%);
+	padding: 5% 0%;
+	text-align: center;
+	h3{
+		padding: 5%;
+		font-size: 35px;
+		color: white;
+		i{
+			padding: 5px;
+		}
+	}
+	#texto{
+		border: 1px solid darken($main-green, 30%);
+		padding: 10px;
+		margin: 20px 0px;
+		font-weight: bold;
+		width: 80%;
+	}
+	#ADD{
+		font-family: Oswald;
+		font-size: 30px;
+		@include botones-simples (10%, $main-green, 20px 0px, 1px solid darken ($main-green, 20%), 10px);
+	}
+}
+.lista{
+	background-color: $main-green;
+	padding: 5% 0%;
+	border-top: 2px solid darken($main-green, 20%);
+	h3{
+		text-align: center;
+		margin-bottom: 40px;
+		font-size: 30px;
+		font-family: Oswald;
+		color: white;
+	}
+	#events{
+		padding: 0%;
+		li{
+			background-color: lighten($main-green, 15%);
+			border: 1px solid white;
+			padding: 15px 5px;
+			margin: 5px 0px;
+			color: white;
+			font-size: 25px;
+			font-weight: bold;
+			.option{
+				margin-right: 30px ;
+				width: 20px;
+				height: 20px;
+			}
+			#basurero{
+				font-size: 25px;
+				float: right;
+				padding: 3px 7px;;
+				border: 1px solid white;
+				background-color: $main-green;
+				&:hover{
+					color: $main-green;
+					background-color: darken($main-green, 10%);
+				}
+			}
+		}
 	}
 }
