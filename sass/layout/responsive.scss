@@ -6,13 +6,16 @@
 	}
 
 	.agregar{
+		h3{
+			font-size: 30px;
+		}
 		#ADD{
 			@include botones-simples (40%, $main-green, 20px 0px, 1px solid darken ($main-green, 20%), 10px);
 		}
 	}
 	.lista{
 		h3{
-			font-size: 14px;
+			font-size: 30px;
 		}
 	}
  }

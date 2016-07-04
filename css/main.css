@@ -50,27 +50,29 @@ header {
     font-size: 30px;
     font-family: Oswald;
     color: white; }
-  .lista #events li {
-    background-color: #56bc5b;
-    border: 1px solid white;
-    padding: 15px 5px;
-    margin: 5px 0px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold; }
-    .lista #events li .option {
-      margin-right: 30px;
-      width: 20px;
-      height: 20px; }
-    .lista #events li #basurero {
-      font-size: 25px;
-      float: right;
-      padding: 3px 7px;
+  .lista #events {
+    padding: 0%; }
+    .lista #events li {
+      background-color: #56bc5b;
       border: 1px solid white;
-      background-color: #388e3c; }
-      .lista #events li #basurero:hover {
-        color: #388e3c;
-        background-color: #2a692d; }
+      padding: 15px 5px;
+      margin: 5px 0px;
+      color: white;
+      font-size: 25px;
+      font-weight: bold; }
+      .lista #events li .option {
+        margin-right: 30px;
+        width: 20px;
+        height: 20px; }
+      .lista #events li #basurero {
+        font-size: 25px;
+        float: right;
+        padding: 3px 7px;
+        border: 1px solid white;
+        background-color: #388e3c; }
+        .lista #events li #basurero:hover {
+          color: #388e3c;
+          background-color: #2a692d; }
 
 * {
   font-family: open sans; }
@@ -93,6 +95,8 @@ ul {
   header h1 {
     font-size: 40px; }
 
+  .agregar h3 {
+    font-size: 30px; }
   .agregar #ADD {
     width: 40%;
     background-color: #388e3c;
@@ -108,6 +112,6 @@ ul {
       background-color: #225725; }
 
   .lista h3 {
-    font-size: 14px; } }
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
