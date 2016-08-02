@@ -9,7 +9,7 @@ header {
     font-size: 55px; }
 
 .agregar {
-  background-color: #009197;
+  background: -webkit-linear-gradient(top, #009197, #00dae4);
   padding: 5% 0%;
   text-align: center; }
   .agregar h3 {
@@ -91,12 +91,12 @@ ul {
 .tachado {
   text-decoration: line-through; }
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 250px) and (max-width: 767px) {
   header h1 {
     font-size: 40px; }
 
   .agregar h3 {
-    font-size: 30px; }
+    font-size: 25px; }
   .agregar #ADD {
     width: 40%;
     background-color: #388e3c;
@@ -112,6 +112,6 @@ ul {
       background-color: #225725; }
 
   .lista h3 {
-    font-size: 30px; } }
+    font-size: 40px; } }
 
 /*# sourceMappingURL=main.css.map */

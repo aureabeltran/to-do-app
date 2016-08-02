@@ -9,7 +9,7 @@ header{
 	}
 }
 .agregar{
-	background-color: lighten($main-cyan, 10%);
+	background:-webkit-linear-gradient(top, lighten($main-cyan,10%), lighten($main-cyan,25%));
 	padding: 5% 0%;
 	text-align: center;
 	h3{
